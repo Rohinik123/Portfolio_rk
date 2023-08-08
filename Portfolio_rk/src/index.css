@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Dancing+Script&family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    font-family: 'Roboto', sans-serif;
+
+  }
+}
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #eff2f5;
+  justify-content: space-between;
+}
+
+/* Base styles */
+.image-container {
+  text-align: center; /* To center the image horizontally */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 150px;
+  
+  margin-bottom: 180px;
+}
+
+/* Media query for Galaxy A7 */
+@media (max-width: 360px) {
+  .image-container img {
+    max-width: 90%; /* Adjust this value as needed */
+  }
+} 
+
+.heading{
+   font-family: 'Dancing Script', cursive;
+}
+
+.portfolio{
+  margin-top: 70px;
+}
