@@ -29,9 +29,22 @@
 .image-container img {
   max-width: 100%;
   height: auto;
-  margin-top: 150px;
-  
-  margin-bottom: 180px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .image-container img {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-container img {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
 }
 
 /* Media query for Galaxy A7 */
@@ -45,6 +58,12 @@
    font-family: 'Dancing Script', cursive;
 }
 
-.portfolio{
-  margin-top: 70px;
+.portfolio {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .portfolio {
+    margin-top: 2.5rem;
+  }
 }

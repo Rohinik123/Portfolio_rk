@@ -4,9 +4,6 @@ module.exports = {
 
   theme: {
     extend: {},
-    fontFamily: {
-      singature: ["Quicksand"],
-    },
   },
   plugins: [],
 };
