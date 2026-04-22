@@ -15,7 +15,7 @@ const Portfolio = () => {
             src: chatting_img,
             
             SourceCode:'https://github.com/Rohinik123/Capstone-Chit-Chat-App',
-            LiveLink:" https://jetset-sms-rk.netlify.app"
+            LiveLink:" https://regal-strudel-b25084.netlify.app"
         },
         {
             id:2,

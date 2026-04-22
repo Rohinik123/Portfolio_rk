@@ -7,6 +7,10 @@ import node from "../assets/node.png"
 import GitHub from "../assets/github.png"
 import tailwind from "../assets/tailwind.png"
 import bootstrap from "../assets/bootastrap.png"
+import redux from "../assets/Redux.png"
+import reduxsaga from "../assets/redux-saga.png"
+import typescript from "../assets/Typescript.png"
+import mui from "../assets/material_ui.png"
 
 const Experience = () => {
 
@@ -37,28 +41,53 @@ const Experience = () => {
        },
        {
         id:5,
+        src: redux,
+        title:'Redux Toolkit',
+        style:'shadow-purple-500'
+       },
+       {
+        id:6,
+        src: reduxsaga,
+        title:'Redux Saga',
+        style:'shadow-emerald-500'
+       },
+       {
+        id:7,
+        src: typescript,
+        title:'TypeScript',
+        style:'shadow-indigo-500'
+       },
+       {
+        id:8,
+        src: mui,
+        title:'Material UI',
+        style:'shadow-sky-500'
+       },
+       {
+        id:9,
         src:node,
         title:'NODE JS',
         style:'shadow-green-500'
        },
        {
-        id:6,
+        id:10,
         src:GitHub,
         title:'GitHub',
         style:'shadow-gray-400'
        },
        {
-        id:7,
+        id:11,
         src:tailwind,
         title:'Tailwind',
         style:'shadow-blue-400'
        },
        {
-        id:8,
+        id:12,
         src:bootstrap,
         title:'Bootstrap',
         style:'shadow-blue-600'
        },
+      
     ]
   
   

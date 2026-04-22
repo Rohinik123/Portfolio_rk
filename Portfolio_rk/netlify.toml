@@ -1,0 +1,12 @@
+# Netlify build for Create React App
+# Place this file at the repo root that contains package.json (or set Netlify "Base directory" to this folder).
+
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# Client-side routing (React): serve index.html for unknown paths
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
