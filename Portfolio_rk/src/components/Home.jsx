@@ -33,11 +33,11 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="image-container w-full max-w-sm md:max-w-md md:w-1/2 flex-shrink-0">
+        <div className="image-container w-full flex justify-center md:w-1/2 md:justify-end flex-shrink-0">
           <img
             src={photo}
             alt="profile"
-            className="rounded-2xl mx-auto w-4/5 sm:w-2/3 md:w-full max-w-xs md:max-w-none object-cover"
+            className="rounded-2xl mx-auto h-auto w-2/3 sm:w-1/2 max-w-[200px] sm:max-w-[220px] md:w-1/2 md:max-w-[240px] lg:max-w-[260px] object-cover"
           />
         </div>
       </div>
